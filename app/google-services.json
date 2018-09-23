@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "343273425448",
+    "firebase_url": "https://ngohelper-b3eff.firebaseio.com",
+    "project_id": "ngohelper-b3eff",
+    "storage_bucket": "ngohelper-b3eff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343273425448:android:a7748e78cf64f7d5",
+        "android_client_info": {
+          "package_name": "me.madhurgupta.ngohelper.ngohelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343273425448-t0olegrher7k6m276f6594a4848fl9i2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.madhurgupta.ngohelper.ngohelper",
+            "certificate_hash": "e988bcc702bfb1aecdd117a8fdae514345568995"
+          }
+        },
+        {
+          "client_id": "343273425448-6eq5fc16mop4h5fbg6erf630m0jkrl0l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzdeqHJxdWbU45cLqkcFqJccnRD_FfjCg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343273425448-6eq5fc16mop4h5fbg6erf630m0jkrl0l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

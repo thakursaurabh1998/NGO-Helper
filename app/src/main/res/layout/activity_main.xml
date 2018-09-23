@@ -6,13 +6,85 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    app:cardCornerRadius="4dp"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    app:cardElevation="8dp"
+                    app:cardMaxElevation="0dp"
+                    android:onClick="donate"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/donate"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30dp"
+                        android:padding="20dp"
+                        android:layout_gravity="left|bottom"
+                        android:text="DONATE"/>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <android.support.v7.widget.CardView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    app:cardCornerRadius="4dp"
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    app:cardElevation="8dp"
+                    app:cardMaxElevation="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:onClick="getHelp"
+                    android:layout_weight="0.5">
+
+                    <ImageView
+                        android:src="@drawable/help"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30dp"
+                        android:padding="20dp"
+                        android:layout_gravity="left|bottom"
+                        android:text="GET HELP"/>
+
+                </android.support.v7.widget.CardView>
+            </RelativeLayout>
+
+        </LinearLayout>
+
 
 </android.support.constraint.ConstraintLayout>
