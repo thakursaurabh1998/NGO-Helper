@@ -1,0 +1,26 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "engines": {
+    "node": ">=8.0.0",
+    "npm": ">=5.6.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon -i *.json server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.3",
+    "mailgun-js": "^0.20.0",
+    "mongoose": "^5.2.1",
+    "nodemailer": "^4.6.8",
+    "request": "^2.88.0"
+  }
+}

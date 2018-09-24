@@ -1,0 +1,4 @@
+applications:
+- name: KeralaFlood
+  random-route: true
+  memory: 128M

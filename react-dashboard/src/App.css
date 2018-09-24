@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  font-family: "Acme", sans-serif;
+  font-size: 4em;
+}
+
+.sort-btn {
+  margin-right: 30px;
+  text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    font-size: 3em;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sort-btn {
+    margin-right: 0;
+  }
+  .header {
+    font-size: 2.5em;
+  }
+}
+
+.center-cropped {
+  width: 100px;
+  height: 100px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
